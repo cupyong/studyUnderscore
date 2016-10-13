@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    var arr = [];
+    var add = function () {
+        arr.push(new Array(1000))
+    }
+    var del = function () {
+       arr=[];
+    }
+    setInterval(function () {
+        add();
+    }, 1000);
+    setInterval(function () {
+        del();
+    }, 2000);
+
+</script>
